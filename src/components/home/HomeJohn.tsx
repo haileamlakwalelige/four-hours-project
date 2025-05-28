@@ -3,8 +3,8 @@ import Image from "next/image"
 
 export default function Component() {
   return (
-    <div className="min-h-screen bg-white">
-      <div className="container mx-auto px-6 py-16 lg:py-24">
+    <div className="min-h-full pb-10 lg:pb-0 lg:min-h-screen bg-white">
+      <div className="container mx-auto px-6 md:py-16 lg:py-24">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-start max-7-6xl mx-auto h-full">
           {/* Left Image */}
           <div className="relative">

@@ -9,7 +9,7 @@ const HomeBenefit = () => {
     <div className="my-10">
       <div>
         <p className="text-sm font-light text-start">Benefit</p>
-        <p className="text-2xl md:text-4xl lg:text-6xl xl:text-7xl font-normal text-start font-serif my-16">
+        <p className="text-2xl md:text-4xl lg:text-6xl xl:text-7xl font-normal text-start font-serif my-8 lg:my-16">
           We&apos;ve cracked the code.
         </p>
         <p className="text-gray-500">

@@ -12,7 +12,7 @@ import HomeContact from "@/components/home/HomeContact";
 
 const page = () => {
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-hidden bg-white">
       <HomeHero />
       <HomeTrusted />
       <div className="bg-gray-500 mx-5 sm:mx-10 lg:mx-20  h-[1px] max-w-full my-5"></div>

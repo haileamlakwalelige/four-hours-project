@@ -6,7 +6,7 @@ const HomeWhy = () => {
     <div className='my-10'>
         <div className='flex flex-col items-center justify-center'>
         <p className="text-sm font-light text-start">Specs</p>
-        <p className="text-2xl md:text-4xl lg:text-6xl xl:text-7xl font-normal text-start font-serif my-16">
+        <p className="text-2xl md:text-4xl lg:text-6xl xl:text-7xl font-normal text-start font-serif py-4 md:py-8 lg:my-16">
         Why Choose Area?
         </p>
         <p className="text-gray-500">
