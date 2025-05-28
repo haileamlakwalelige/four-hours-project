@@ -68,7 +68,7 @@ const NavbarMobile = () => {
             <li className="hover:text-black cursor-pointer font-bold  border-t-[1px] border-gray-300 mt-2 pt-6">
               Contact
             </li>
-            <button className="bg-[#485C11] text-white px-6 py-4 rounded-3xl flex items-center text-sm font-bold">
+            <button className="bg-[#485C11] w-fit text-white px-6 py-4 rounded-3xl flex items-center text-sm font-bold">
               Learn More{" "}
             </button>
           </ul>
