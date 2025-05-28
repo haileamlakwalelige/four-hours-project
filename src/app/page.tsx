@@ -13,18 +13,28 @@ import HomeContact from "@/components/home/HomeContact";
 const page = () => {
   return (
     <div className="overflow-hidden bg-white">
-      <HomeHero />
+      <div id="">
+        <HomeHero />
+      </div>
       <HomeTrusted />
       <div className="bg-gray-500 mx-5 sm:mx-10 lg:mx-20  h-[1px] max-w-full my-5"></div>
-      <HomeBenefit />
+      <div id="benefit">
+        <HomeBenefit />
+      </div>
       <HomeFullImage />
       <HomeBigPicture />
       <div className="bg-gray-500 mx-5 sm:mx-10 lg:mx-20  h-[1px] max-w-full my-5"></div>
-      <HomeWhy />
+    <div id="specification">
+        <HomeWhy />
+    </div>
       <HomeJohn />
-      <HomeMap />
+      <div id="how-to">
+        <HomeMap />
+      </div>
       <HomeFullImageTwo />
-      <HomeContact />
+     <div id="contact-us">
+       <HomeContact />
+     </div>
       <div className="bg-gray-500 mx-5 sm:mx-10 lg:mx-20  h-[1px] max-w-full my-5"></div>
     </div>  
   );
