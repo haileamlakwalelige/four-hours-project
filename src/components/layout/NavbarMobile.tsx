@@ -51,7 +51,7 @@ const NavbarMobile = () => {
 
       {/* Mobile Dropdown Menu */}
       {menuOpen && (
-        <div className="md:hidden fixed top-[70px] z-40 left-1/2 transform -translate-x-1/2 bg-white shadow-lg rounded-xl px-6 py-4 w-[90%] max-w-sm">
+        <div className="md:hidden pt-7 fixed top-[70px] z-40 left-1/2 transform -translate-x-1/2 bg-white shadow-lg rounded-xl px-6 py-4 w-[90%] max-w-sm">
           <ul className="flex flex-col gap-4 text-gray-700 font-medium w-full">
             <li className="hover:text-black cursor-pointer font-bold  border-t-[1px] border-gray-300 mt-2 pt-6">
               Benefits
@@ -65,7 +65,7 @@ const NavbarMobile = () => {
             <li className="hover:text-black cursor-pointer font-bold  border-t-[1px] border-gray-300 mt-2 pt-6">
               Contact Us
             </li>
-            <button className="bg-[#485C11] w-fit text-white px-6 py-4 rounded-3xl flex items-center text-sm font-bold">
+            <button className="bg-[#485C11] mt-7 w-fit text-white px-16 py-4 rounded-3xl flex items-center text-sm font-bold">
               Learn More{" "}
             </button>
           </ul>

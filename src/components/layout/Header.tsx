@@ -25,11 +25,10 @@ const Header = () => {
       >
         <div className='px-4'>
           <ul className='flex gap-5 items-center backdrop-blur-sm px-4 py-3 rounded-3xl font-bold text-gray-700 text-sm'>
-            <li>Home</li>
-            <li>Services</li>
-            <li>Products</li>
-            <li>About</li>
-            <li>Contact</li>
+            <li>Benefits</li>
+            <li>Specification</li>
+            <li>How to</li>
+            <li>Contact Us</li>
           </ul>
         </div>
       </div>
