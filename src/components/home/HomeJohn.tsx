@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export default function Component() {
   return (
-    <div className="min-h-fit lg:pb-0 lg:min-h-screen bg-white">
+    <div className="lg:pb-0 lg:min-h-full bg-white">
       <div className="container mx-auto px-6 md:pb-4">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-start max-7-6xl mx-auto h-full">
           {/* Left Image */}
@@ -20,7 +20,7 @@ export default function Component() {
           </div>
 
           {/* Right Content */}
-          <div className="space-y-8">
+          <div className="space-y-8 border-t-[1px] border-gray-300 ">
             <blockquote className="text-base md:text-lg lg:text-xl font-light text-black font-serif leading-relaxed">
               &quot;I was skeptical, but Area has completely transformed the way I manage my business. The data
               visualizations are so clear and intuitive, and the platform is so easy to use. I can&apos;t imagine running my

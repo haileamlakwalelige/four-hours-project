@@ -31,8 +31,8 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased mx-5 lg:mx-10  `}
       >
-        {/* <Navbar />
-        <Header /> */}
+        <Navbar />
+        <Header />
         <NavbarMobile />
         {children}
         <Footer />

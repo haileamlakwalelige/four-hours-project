@@ -18,7 +18,7 @@ export default function MapComponent() {
   ];
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="lg:min-h-full bg-white  py-10">
       <div className="container mx-auto">
         <div className="max-w-6xl mx-auto">
           {/* Horizontal scroll container on small screens, grid on md+ */}

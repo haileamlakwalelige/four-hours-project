@@ -4,7 +4,7 @@ import MapComponent from './MapComponent'
 const HomeMap = () => {
   return (
     <div>
-        <div className='flex flex-col md:flex-row justify-center md:justify-between items-center'>
+        <div className='flex flex-col md:flex-row justify-center md:justify-between items-center mt-6'>
         <p className="text-2xl md:text-4xl lg:text-6xl font-normal text-start font-serif lg:mb-16">
         Map Your Success
         </p>

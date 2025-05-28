@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const HomeHero = () => {
   return (
-    <div className="mt-16">
+    <div className="mt-24 lg:mt-16">
       <div>
         <p className="text-2xl md:text-4xl lg:text-6xl xl:text-7xl font-normal text-center font-serif mb-5">
           Browse everything.

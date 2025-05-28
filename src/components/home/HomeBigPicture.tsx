@@ -48,10 +48,10 @@ export default function HomeBigPicture() {
   return (
     <div className="min-h-screen bg-white">
       <div className="container mx-auto px-6 py-16 lg:py-24">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-start">
           {/* Left Content */}
-          <div className="space-y-8">
-            <div className="space-y-6">
+          <div className="space-y-8 border-t-[1px] pt-20 border-gray-300 ">
+            <div className="space-y-6 ">
               <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-light text-gray-900 leading-tight">
                 See the Big Picture
               </h1>
@@ -68,7 +68,7 @@ export default function HomeBigPicture() {
                 ["Make Presentations Pop:", "Interactive maps and dashboards keep your audience engaged."],
                 ["Your Global Snapshot:", "Get a quick, clear overview of your entire operation."]
               ].map(([title, desc], i) => (
-                <div className="flex gap-4" key={i}>
+                <div className="flex gap-4 border-t-[1px] border-gray-300 pt-4" key={i}>
                   <span className="text-sm font-medium text-gray-400 mt-1">{`0${i + 1}`}</span>
                   <div>
                     <h3 className="font-medium text-gray-900 mb-1">{title}</h3>
@@ -85,7 +85,7 @@ export default function HomeBigPicture() {
 
           {/* Right Visual */}
           <div className="relative">
-            <div className="bg-gradient-to-br from-amber-100 to-amber-200 rounded-3xl p-12 lg:p-16 min-h-[300px] lg:min-h-[500px] relative overflow-hidden">
+            <div className="bg-gradient-to-br from-amber-100 to-amber-200 rounded-3xl p-12 lg:p-16 min-h-[300px] lg:min-h-[700px] relative overflow-hidden">
               {/* Navigation arrows */}
               <div className="absolute top-6 right-6 flex gap-2 z-10">
                 <button

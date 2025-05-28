@@ -66,7 +66,7 @@ export default function Component() {
   const titles = ["Area", "WebSurge", "HyperView"];
 
   return (
-    <div className="min-h-screen pt-10">
+    <div className="min-h-full py-10">
       <div className="w-full mx-auto px-4 sm:px-6">
         <div className="max-w-7xl mx-auto">
           <div className="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden">
